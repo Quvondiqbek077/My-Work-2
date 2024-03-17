@@ -150,3 +150,58 @@ body{
 
 /* Menu bar */
 /* Site header */
+
+/* Site-Hero */
+
+.site-hero__subtitle{
+    color: var(--text-color);
+    margin-bottom: 10px !important;
+    font-family: var(--Montserrat);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+.site-hero__btn{
+    max-width: 299px;
+    width: 100%;
+    margin: 25px auto 50px;
+}
+
+.site-hero__tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.site-hero__tech--name{
+    color: var(--primary-color);
+    font-family: var(--Montserrat);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.carousel-indicators{
+    bottom: -55px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.carousel-indicators > button{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: var(--dots);
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators > button:active{
+    background-color: var(--dots-active) !important;
+}
+
+.site-hero__image{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+/* Site-Hero */
