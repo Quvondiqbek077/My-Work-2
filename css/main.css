@@ -409,5 +409,60 @@ body {
 .work-image__item{
     height: 100%;
 }
+.work-group {
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+}
+
+.work-list__group {
+    background-color: var(--body) !important;
+    color: var(--primary-color);
+    font-family: var(--Montserrat);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px;
+    box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+}
+
+.work-list__group.active {
+    background-color: var(--primary-color) !important;
+    color: var(--body);
+    border: 1px solid var(--primary-color);
+}
+
+.work-list__group:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--body);
+    border: 1px solid var(--primary-color);
+}
+
+/* //WORK-SECTION */
+
+
+
+/* FOOTER */
+
+.site-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-list {
+    padding: 0;
+}
+
+.footer-link,
+.footer-phone,
+.footer-mail {
+    font-family: var(--Montserrat);
+    color: var(--footer-link);
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.footer-item:nth-child(3) .footer-link {
+    border-bottom: 1px solid var(--footer-link);
+}
 
 /* WORK SECTION */
